@@ -1,0 +1,406 @@
+/*  Css da primeira pagina index*/
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0 30px;
+    padding: 960px;
+}
+#corpo-da-pagina{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box 0;;
+    background-color: #F0FFF0;
+    margin-bottom: 0;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-image: url(../img/body1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#cabecario{
+    padding: 5px;  
+    background-color: #B0E2FF;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+	background-repeat: no-repeat;
+	background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    border: 1px solid #1E90FF;
+}
+.linkes  li{
+    font-family: 'Orbitron', sans-serif;
+    padding: 2px px;
+    display: inline-block;
+    margin-top: 0;
+    margin: 22px;;
+    border:0px solid #e6d0d0;    
+}
+#corpo-link{
+    background-color:#999;
+    margin-top: 0;
+    opacity: 0.8;
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+}
+.dados-pessoais{
+    border: 0.1px solid #1E90FF;
+    background-color: #B0E2FF;
+    opacity: 0.8;
+}
+
+.formacao{
+    border: 0.1px solid #1E90FF;
+    background-color: #B0E2FF;
+    opacity: 0.8;
+}
+
+#lista-desordenada{
+    margin-top: 0;
+}
+
+h1{
+    text-shadow: 3px 3px 7px;
+    font-size: 60px;
+    text-align: center;
+    background-attachment: fixed;
+}
+a{
+    text-decoration-line: none;
+    margin:10px;
+    font-weight: bold;
+    color: rgb(12, 17, 22);
+    line-height: 0px;
+}
+a:hover{
+    color: #CCC;
+}
+
+#face{
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: top;
+}
+
+#home{
+  
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+#twitter{
+ 
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+#instagram{
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+#tempo{
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position:  top;
+    
+}
+
+#email{
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position:  center;
+}
+
+ #paragrafo{
+    list-style-type: square;
+    color:black;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 2.3;
+    margin-right: 20px;
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+    background-color: #B0E2FF;
+    border-radius: 10px;
+    
+    
+}
+#perfil{
+    margin: 70px;
+    font-size: 14px;
+    line-height: 2.3;
+    margin-top: 0;
+    opacity: 0.8;
+    line-height: 0px;
+}
+#formacao{
+    margin: 70px;
+    margin-top:0;
+    opacity: 0.8;
+    line-height: 20px;
+}
+
+#Experiencias{
+    margin: 70px;
+    margin-top: 0;
+    line-height: 20px;
+    opacity: 0.8;
+}
+h2{
+    text-shadow: 3px 3px 7px;
+    text-decoration: underline;
+    font-weight: 1;
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(0, 0, 0);
+}
+b{
+    font-size: 13px;
+    color:#555555;
+}
+
+#lista{
+    text-shadow: 3px 3px 7px;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#home facebook button{
+    padding: 10px 20px 10px 20px; 
+    background-color: #ccc;
+    font-size: 9px;
+    border: none;
+    cursor: pointer;
+}
+/*=====================================================================================================================================*/
+/* Css da segunda pagina hobbies*/
+#passa {
+
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box 0;;
+    background-color: #F0FFF0;
+    margin-bottom: 0;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-image: url(../img/pass.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+   
+}
+
+
+.cabecario-passatempo{
+    padding: 5px;  
+    background-color: #B0E2FF;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+	background-repeat: no-repeat;
+	background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+    border: 1px solid #1E90FF;
+}
+
+.containe-principal{
+	border: 1px solid #1E90FF;
+
+}
+.containe-C{
+    padding-left: 20px;
+    padding: 30px;
+    
+    width: 100%;
+
+}
+
+
+
+#volta{
+    text-decoration-line: none;
+	color:hsl(0, 63%, 5%);
+    cursor: pointer;
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.8;    
+}
+
+#conteudo{
+	width:80%;
+	margin-left: 10%;
+	padding: 0px;
+	border: 1px solid #CCC;
+}
+
+main{
+	float: left;
+	width:40%;
+	margin-right: 50px;
+    padding: 30px; 
+    border:none;
+    border-right: 1px solid #B0E2FF ; 
+}
+.musica{
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+}
+
+
+main>article{
+	background-color: #F0F0F0;
+	padding: 30px;
+	margin-bottom: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+main>article:last-child{
+    margin-bottom: 0;
+}
+main>article>p{
+	font-size: 16px;
+    margin: 0px 0px 5px 0px;
+}
+main>article>p {
+	color: #666;
+	font-size: 12px;
+    margin: 0;
+}
+
+/* Css dos contactos ou terceira pagina ================================================================================================================================================================================================== */
+
+#contato1{
+    padding: 20px 40px;
+    margin: 1px;
+    margin-top: 0 0;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: -4px 13px 18px -8px rgba(0,0,0,0.75);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 0 -230px;
+    opacity: 0.7;
+    border-radius: 10px;
+    background-color: #B0E2FF
+}
+
+#corpocontato {
+
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box 0;;
+    background-color: #F5F5F5;
+    margin-bottom: 0;
+    margin-left: 90px;
+    margin-right: 90px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+	background-color:#FFFFFF;
+}
+
+.form-item label{
+    color: rgb(19, 9, 9);
+    font-size: 14px;
+    display: block;
+}
+
+.list label{
+    color: #000;
+    font-size: inherit;
+}
+
+.form-item{
+    margin-bottom: 20px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item select,
+.form-item textarea {
+	color: black;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid rgb(119, 118, 118);
+    width: 100%;
+    outline: none;
+}
+
+.controls button{
+    padding: 10px 20px;
+    background-color: #999;
+    font-size: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover{
+    background-color: rgb(255, 254, 254);
+    box-shadow: 3px 3px 3px rgba(14, 12, 12, 0.5);
+}
+select{
+	background-color: #B0E2FF;
+}
+
+footer {
+	text-align: center;
+    padding: 30px;
+    background-color: #B0E2FF;
+    color: rgb(5, 4, 4);
+    opacity: 0.8;
+}
+
+.container {
+	width: 80%;
+	margin: 20px 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+}
+
+
+
+section>div{
+	background-color: #B0E2FF;
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+section>div:last-child{
+	margin-bottom: 0;
+}
+
+section>div>h2{
+	font-size: 16px;
+	margin: 0px 0px 5px 0px;
+}
+
+section>div>p {
+	color: rgb(102, 102, 102);
+	font-size: 12px;
+	margin: 0;
+
+}
+
+section>div>img{
+	width:50px;
+	margin-right: 10px;
+	float: left;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-between;
+}
